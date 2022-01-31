@@ -5,4 +5,5 @@
   <project name="s5pxx18-android-7" remote="friendly-gitlab" revision="master"/> 
   <project name="linux" path="s5pxx18-android-7/kernel" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
   <project name="u-boot" path="s5pxx18-android-7/u-boot" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
+  <project name="build_scripts" path="s5pxx18-android-7" remote="tfc-github" revision="main"/> 
 </manifest>
