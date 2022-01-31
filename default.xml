@@ -3,6 +3,6 @@
   <remote fetch="https://gitlab.com/friendlyelec/" name="friendly-gitlab"/>
   <remote fetch="https://github.com/threefivedisplays-nano-pc-t3plus/" name="tfc-github"/>
   <project name="s5pxx18-android-7" remote="friendly-gitlab" revision="master"/> 
-  <project name="linux" path="kernel" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
+  <project name="linux" path="s5pxx18-android-7/kernel" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
   <project name="u-boot" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
 </manifest>
