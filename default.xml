@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/threefivedisplays-nano-pc-t3plus/" name="tfc-github"/>
+  <project name="linux" path="kernel" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
   <project name="u-boot" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
 </manifest>
