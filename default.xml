@@ -9,8 +9,8 @@
   <copyfile dest="s5pxx18-android-7/build_kernel.sh" src="build_kernel.sh"/>
   </project>
   <project name="Docker" path="s5pxx18-android-7/Docker" remote="tfc-github" revision="main">
-  <copyfile dest="Dockerfile" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/Dockerfile"/>
-  <copyfile dest="enter_container.sh" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/enter_container.sh"/>
-  <copyfile dest="make_container.sh" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/make_container.sh"/>
+  <copyfile dest="s5pxx18-android-7/Dockerfile" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/Dockerfile"/>
+  <copyfile dest="s5pxx18-android-7/enter_container.sh" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/enter_container.sh"/>
+  <copyfile dest="s5pxx18-android-7/make_container.sh" src="s5pxx18-android-7/Docker/Docker_to_build_kernel_and_uboot/mark/make_container.sh"/>
   </project>
 </manifest>
