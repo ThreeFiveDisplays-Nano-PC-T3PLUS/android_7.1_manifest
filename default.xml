@@ -7,6 +7,7 @@
   <project name="u-boot" path="s5pxx18-android-7/u-boot" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
   <project name="build_scripts" path="s5pxx18-android-7/build_scripts" remote="tfc-github" revision="main"> 
   <copyfile dest="s5pxx18-android-7/build_kernel.sh" src="build_kernel.sh"/>
+  <copyfile dest="s5pxx18-android-7/build_uboot.sh" src="build_uboot.sh"/>
   </project>
   <project name="Docker" path="s5pxx18-android-7/Docker" remote="tfc-github" revision="main">
   <copyfile dest="s5pxx18-android-7/enter_container.sh" src="Docker_to_build_kernel_and_uboot/mark/enter_container.sh"/>
