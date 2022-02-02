@@ -14,4 +14,5 @@
   <copyfile dest="s5pxx18-android-7/enter_container.sh" src="Docker_to_build_kernel_and_uboot/mark/enter_container.sh"/>
   <copyfile dest="s5pxx18-android-7/make_container.sh" src="Docker_to_build_kernel_and_uboot/mark/make_container.sh"/>
   </project>
+  
 </manifest>
