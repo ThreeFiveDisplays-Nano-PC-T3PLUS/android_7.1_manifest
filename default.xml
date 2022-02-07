@@ -5,6 +5,9 @@
   <project name="s5pxx18-android-7" remote="tfc-gitlab" revision="master"/> 
   <project name="linux" path="s5pxx18-android-7/kernel" remote="tfc-github" revision="TFC-A9700RTWV80TC-02"/>
   <project name="u-boot" path="s5pxx18-android-7/u-boot" remote="tfc-github" revision="TFC-A9700RTWV80TC-02"/>
+    <project name="bootanimation" path="s5pxx18-android-7/bootanimation" remote="tfc-github" revision="TFC-A9700RTWV80TC-02"> 
+  <copyfile dest="s5pxx18-android-7/device/friendlyelec/common/bootanimation.zip" src="bootanimation.zip"/>
+  </project>
   <project name="build_scripts" path="s5pxx18-android-7/build_scripts" remote="tfc-github" revision="main"> 
   <copyfile dest="s5pxx18-android-7/build_kernel.sh" src="build_kernel.sh"/>
   <copyfile dest="s5pxx18-android-7/build_uboot.sh" src="build_uboot.sh"/>
