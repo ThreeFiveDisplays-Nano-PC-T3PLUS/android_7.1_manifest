@@ -3,8 +3,8 @@
   <remote fetch="https://gitlab.com/nano-pc-t3plus/" name="tfc-gitlab"/>
   <remote fetch="https://github.com/threefivedisplays-nano-pc-t3plus/" name="tfc-github"/>
   <project name="s5pxx18-android-7" remote="tfc-gitlab" revision="master"/> 
-  <project name="linux" path="s5pxx18-android-7/kernel" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
-  <project name="u-boot" path="s5pxx18-android-7/u-boot" remote="tfc-github" revision="TFC-D91210LTWU50TC-C2"/>
+  <project name="linux" path="s5pxx18-android-7/kernel" remote="tfc-github" revision="TFC-J9500MTWX50TC-01"/>
+  <project name="u-boot" path="s5pxx18-android-7/u-boot" remote="tfc-github" revision="TFC-J9500MTWX50TC-01"/>
   <project name="build_scripts" path="s5pxx18-android-7/build_scripts" remote="tfc-github" revision="main"> 
   <copyfile dest="s5pxx18-android-7/build_kernel.sh" src="build_kernel.sh"/>
   <copyfile dest="s5pxx18-android-7/build_uboot.sh" src="build_uboot.sh"/>
